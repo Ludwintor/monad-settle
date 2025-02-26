@@ -31,7 +31,7 @@ jobs:
       - name: Build
         run: |
           npm ci
-          npm run build -- --base=/${{ github.event.repository.name }}
+          npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

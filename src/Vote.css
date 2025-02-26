@@ -1,0 +1,30 @@
+.vote {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+}
+
+.secondary {
+    font-weight: normal;
+    font-size: 1.2rem;
+}
+
+.vote>button {
+    background-color: #ffa883;
+    box-shadow: 0 0 1rem 0.2rem #ffa883;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    user-select: none;
+    cursor: pointer;
+    transition: filter 0.2s, box-shadow 0.4s;
+}
+
+.vote>button:hover {
+    filter: brightness(105%);
+    box-shadow: 0 0 1.5rem 0.3rem #ffa883;
+}

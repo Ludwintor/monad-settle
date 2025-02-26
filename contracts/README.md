@@ -1,0 +1,1 @@
+This contract was written in [Remix IDE](https://remix.ethereum.org). Just import it and do stuff

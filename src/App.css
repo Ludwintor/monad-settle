@@ -1,0 +1,83 @@
+#root {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    margin: 0.5rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: 0.5rem;
+}
+
+.github {
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+
+}
+
+.github>img {
+    width: 3.2rem;
+    opacity: 0.5;
+    transition: opacity 0.2s;
+}
+
+.github>img:hover {
+    opacity: 1;
+}
+
+.sides {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
+}
+
+.diff {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-size: 5rem;
+    user-select: none;
+    pointer-events: none;
+}
+
+.top {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+    align-items: flex-end;
+}
+
+.bot {
+    backdrop-filter: invert(100%);
+    height: 50%;
+    color: white;
+    overflow: hidden;
+    transition: height 1s ease-in-out;
+}

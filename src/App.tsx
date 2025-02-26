@@ -76,7 +76,7 @@ function App() {
         <h1>Let's settle this - which tokens are better?</h1>
         <p>{`Next reset in: ${resetText}`}</p>
         <div className='footer'>
-          {"Built with <3 by ludwintor"}
+          {"Built with <3 by ludwintor for Monad"}
         </div>
       </div>
       <div className='sides'>

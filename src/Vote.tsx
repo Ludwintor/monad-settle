@@ -14,7 +14,7 @@ function Vote(props: VoteProps) {
     <div className="vote">
       <button onClick={props.onClick}>{props.buttonText}</button>
       <span>{`${props.current} points`}</span>
-      <span className="secondary">{`${props.current} total`}</span>
+      <span className="secondary">{`${props.total} total`}</span>
       {props.lastVoter && <span className="secondary">{`last voter ${props.lastVoter}`}</span>}
     </div>
   );

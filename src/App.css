@@ -22,6 +22,7 @@ p {
 .text {
     display: flex;
     flex-direction: column;
+    margin: 0 4rem;
 }
 
 .footer {
@@ -66,6 +67,18 @@ p {
     font-size: 5rem;
     user-select: none;
     pointer-events: none;
+}
+
+@media (max-width: 768px) {
+  .diff {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .diff {
+    font-size: 3rem;
+  }
 }
 
 .top {
